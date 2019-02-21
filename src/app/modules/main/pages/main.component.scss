@@ -1,0 +1,13 @@
+.main {
+  text-align: center;
+
+  &__actions {
+    padding-top: 2em;
+
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+}

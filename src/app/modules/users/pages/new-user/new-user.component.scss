@@ -1,0 +1,14 @@
+.new-user {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+
+  &__form-field {
+    margin-bottom: 1em;
+    display: block;
+
+    label, input{
+      display: block;
+    }
+  }
+}
