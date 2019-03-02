@@ -11,6 +11,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './modules/main/pages/main.component';
 
+// Modules
+import { UsersModule } from './modules/users/users.module';
+import { PostsModule } from './modules/posts/posts.module';
+
 // Routes
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -21,7 +25,8 @@ const routes: Routes = [
   imports: [
     BrowserModule, 
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    UsersModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
